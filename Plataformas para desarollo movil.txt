@@ -1,0 +1,18 @@
+Qt Creator
+Es un IDE multiplataforma enfocado en el desarollo de aplicaciones con GUI utilizando las librerias Qt.
+
+
+*Debilidades:
+No soporta tantos lenguajes; principalmente C++ y Python.
+Cuesta dinero
+
+*Fortalezas:
+Capaz de desarollar para cualquier plataforma, incluso para microcontrladores.
+Basando en código abierto
+
+*Amenazas:
+
+
+
+*Oportunidades:
+El único IDE optimizado para librerias gráficas Qt
