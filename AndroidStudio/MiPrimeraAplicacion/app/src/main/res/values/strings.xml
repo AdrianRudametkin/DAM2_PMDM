@@ -7,6 +7,6 @@
     <string name="next">Pa delante</string>
     <string name="previous">Pa trás</string>
 
-    <string name="hello_first_fragment">Sup first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment">Ey, primer fragmento</string>
+    <string name="hello_second_fragment">Halo segundo fragmento. Arg: %1$s</string>
 </resources>
