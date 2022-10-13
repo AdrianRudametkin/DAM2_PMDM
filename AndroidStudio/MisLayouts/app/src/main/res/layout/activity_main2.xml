@@ -4,34 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fondo_a"
-    android:theme="@android:style/Theme.NoTitleBar"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity2"
+    android:theme="@android:style/Theme.NoTitleBar">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="10dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_margin="30dp">
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:id="@+id/buttonPrev2"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="0.1"
-            android:text=" " />
+            android:onClick="anterior"
+            android:text="1" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
@@ -39,12 +31,12 @@
             android:text=" " />
 
         <Button
-            android:id="@+id/buttonNext1"
-            android:layout_width="wrap_content"
+            android:id="@+id/buttonNext2"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="0.1"
-            android:onClick="siguente"
-            android:text="2" />
+            android:onClick="siguiente"
+            android:text="3" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
