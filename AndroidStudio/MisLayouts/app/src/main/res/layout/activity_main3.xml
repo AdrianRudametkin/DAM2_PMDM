@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity3"
+    android:background="@color/fondo2"
+    android:theme="@android:style/Theme.NoTitleBar">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +23,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:onClick="anterior"
+            android:text="" />
 
         <Button
             android:id="@+id/button4"
@@ -30,13 +33,14 @@
             android:layout_weight="0.5"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:text="Button" />
+            android:text="" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Button" />
+            android:onClick="siguiente"
+            android:text="" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2"
+    android:background="@color/fondo2"
     android:theme="@android:style/Theme.NoTitleBar">
 
     <LinearLayout
@@ -15,12 +16,11 @@
 
         <Button
             android:id="@+id/buttonPrev2"
-            android:layout_width="20dp"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:layout_weight="0.1"
             android:onClick="anterior"
-            android:text="1" />
+            android:text="" />
 
         <Button
             android:id="@+id/button2"
@@ -28,15 +28,14 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:text=" " />
+            android:text="" />
 
         <Button
             android:id="@+id/buttonNext2"
-            android:layout_width="20dp"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:layout_weight="0.1"
             android:onClick="siguiente"
-            android:text="3" />
+            android:text="" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

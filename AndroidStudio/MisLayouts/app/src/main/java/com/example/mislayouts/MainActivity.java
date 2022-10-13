@@ -26,5 +26,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void anterior(View view){
+        Intent intent = new Intent(this, MainActivity5.class);
+        startActivity(intent);
+    }
 
 }

@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fondo_a"
-    android:theme="@android:style/Theme.NoTitleBar"
     tools:context=".MainActivity"
+    android:background="@color/fondo"
+    android:theme="@android:style/Theme.NoTitleBar"
     >
 
     <LinearLayout
@@ -28,6 +28,7 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="0.1"
+            android:onClick="anterior"
             android:text=" " />
 
         <Button
@@ -45,6 +46,6 @@
             android:layout_margin="10dp"
             android:layout_weight="0.1"
             android:onClick="siguente"
-            android:text="2" />
+            android:text="" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

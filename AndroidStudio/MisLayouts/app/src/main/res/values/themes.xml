@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.MisLayouts" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/boton_a</item>
-        <item name="colorPrimaryVariant">@color/boton_a</item>
+        <item name="colorPrimary">@color/boton</item>
+        <item name="colorPrimaryVariant">@color/boton</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -13,8 +13,26 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-    <style name="Button.White" parent="ThemeOverlay.AppCompat">
-        <item name="colorAccent">@android:color/white</item>
+    <style name="Button.green" parent="Theme.MisLayouts">
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="Button.red" parent="Theme.MisLayouts">
+        <item name="android:background">@color/red</item>
+    </style>
+    <style name="Button.black" parent="Theme.MisLayouts">
+        <item name="colorAccent">@color/black</item>
+    </style>
+    <style name="Button.yellow" parent="Theme.MisLayouts">
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+    <style name="Button.grey" parent="Theme.MisLayouts">
+        <item name="colorAccent">@color/grey</item>
+    </style>
+    <style name="Button.white" parent="Theme.MisLayouts">
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="Button.blue" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/blue</item>
     </style>
 
 </resources>

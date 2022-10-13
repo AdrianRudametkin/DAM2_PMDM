@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MisLayouts</string>
+    <string name="cancel">CANCEL</string>
+    <string name="submit">SUBMIT</string>
+    <string name="user_name">User Name</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="email_id">Email Id</string>
 </resources>
