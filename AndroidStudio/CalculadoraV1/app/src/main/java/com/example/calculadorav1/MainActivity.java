@@ -3,6 +3,7 @@ package com.example.calculadorav1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -42,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
      * @param view el elemento que ejecuta el método.
      */
     public void operacion(View view){
-        String operacion;
-        String resultado;
+        String operacion = "";
+        String resultado = "";
         try {
             // Convertimos el texto a Double
             double num1 = Double.parseDouble(etN1.getText().toString());
@@ -86,5 +87,10 @@ public class MainActivity extends AppCompatActivity {
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
+
+        // Iniciamos ActivityOperacion
+        Intent intent = new Intent(this, ActivityOperacion.class);
+        intent.putExtra("operacion", operacion);
+        intent.putExtra("resultado", resultado);
     }
 }
