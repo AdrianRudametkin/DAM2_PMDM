@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
@@ -92,5 +91,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityOperacion.class);
         intent.putExtra("operacion", operacion);
         intent.putExtra("resultado", resultado);
+        startActivity(intent);
     }
 }
