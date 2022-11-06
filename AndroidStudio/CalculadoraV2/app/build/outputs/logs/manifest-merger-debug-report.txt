@@ -88,11 +88,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ad
 	android:fullBackupContent
 		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
-		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:11:9-47
 	tools:targetApi
 		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:9:9-42
 	android:allowBackup
 		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme

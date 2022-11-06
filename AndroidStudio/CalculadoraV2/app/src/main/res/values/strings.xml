@@ -15,8 +15,8 @@
     <string name="_1">1</string>
     <string name="dot">.</string>
     <string name="equal">=</string>
-    <string name="minus">-</string>
+    <string name="minus">—</string>
     <string name="plus">+</string>
-    <string name="multiply">x</string>
+    <string name="multiply">×</string>
     <string name="divide">÷</string>
 </resources>
