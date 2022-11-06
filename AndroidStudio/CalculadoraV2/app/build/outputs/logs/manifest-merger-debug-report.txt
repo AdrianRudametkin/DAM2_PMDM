@@ -4,7 +4,7 @@ ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\mai
 INJECTED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:2:1-30:12
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\.gradle\caches\transforms-3\bd4a99450df9efa1e9019504ea56c77f\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Adrian\.gradle\caches\transforms-3\459731560744495d36c7572f4eaf1462\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\.gradle\caches\transforms-3\229612c218d9fe79705dc19c7f400585\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Adrian\.gradle\caches\transforms-3\21755dfb125ba8aca0d81387a0fbc842\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Adrian\.gradle\caches\transforms-3\034f511a629c0fda711794a09fef4382\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -65,8 +65,8 @@ INJECTED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\
 		ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml:5:5-28:19
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\.gradle\caches\transforms-3\bd4a99450df9efa1e9019504ea56c77f\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\.gradle\caches\transforms-3\bd4a99450df9efa1e9019504ea56c77f\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Adrian\.gradle\caches\transforms-3\459731560744495d36c7572f4eaf1462\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Adrian\.gradle\caches\transforms-3\459731560744495d36c7572f4eaf1462\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\.gradle\caches\transforms-3\229612c218d9fe79705dc19c7f400585\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\.gradle\caches\transforms-3\229612c218d9fe79705dc19c7f400585\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Adrian\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
@@ -125,8 +125,8 @@ uses-sdk
 INJECTED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml
 INJECTED from H:\Documents\GitHub\DAM2_PMDM\AndroidStudio\CalculadoraV2\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\.gradle\caches\transforms-3\bd4a99450df9efa1e9019504ea56c77f\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\Adrian\.gradle\caches\transforms-3\bd4a99450df9efa1e9019504ea56c77f\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Adrian\.gradle\caches\transforms-3\459731560744495d36c7572f4eaf1462\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Adrian\.gradle\caches\transforms-3\459731560744495d36c7572f4eaf1462\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\.gradle\caches\transforms-3\229612c218d9fe79705dc19c7f400585\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Adrian\.gradle\caches\transforms-3\229612c218d9fe79705dc19c7f400585\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Adrian\.gradle\caches\transforms-3\21755dfb125ba8aca0d81387a0fbc842\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
