@@ -37,10 +37,8 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:gravity="bottom"
                     android:hint="Primer número"
-                    android:inputType="numberDecimal"
-                    android:textAlignment="textEnd" />
+                    android:inputType="numberDecimal" />
             </TableRow>
 
             <TableRow
@@ -54,10 +52,8 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:gravity="bottom"
                     android:hint="Segundo número"
-                    android:inputType="numberDecimal"
-                    android:textAlignment="textEnd" />
+                    android:inputType="numberDecimal"/>
             </TableRow>
 
         </TableLayout>
@@ -76,58 +72,52 @@
 
         <RadioGroup
             android:layout_width="170dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_height="match_parent">
 
             <RadioButton
                 android:id="@+id/ibtnDividir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:layout_weight="1"
                 android:background="@null"
                 android:hapticFeedbackEnabled="true"
                 android:minHeight="48dp"
                 android:onClick="operacion"
                 android:padding="5dp"
-                android:text="Sumar" />
+                android:text="@string/sumar" />
 
             <RadioButton
                 android:id="@+id/ibtnMultiplicar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:layout_weight="1"
                 android:background="@null"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="operacion"
                 android:padding="5dp"
-                android:rotation="0"
-                android:text="Restar" />
+                android:text="@string/restar" />
 
             <RadioButton
                 android:id="@+id/ibtnRestar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:layout_weight="1"
                 android:background="@null"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="operacion"
                 android:padding="5dp"
-                android:text="Multiplicar" />
+                android:text="@string/multiplicar" />
 
             <RadioButton
                 android:id="@+id/ibtnSumar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:layout_weight="1"
                 android:background="@null"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="operacion"
                 android:padding="5dp"
-                android:text="Dividir" />
+                android:text="@string/dividir" />
         </RadioGroup>
 
     </LinearLayout>
