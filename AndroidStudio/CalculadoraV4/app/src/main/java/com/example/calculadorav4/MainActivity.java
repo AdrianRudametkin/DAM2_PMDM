@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         ibtnDividir = findViewById(R.id.ibtnDividir);
         etN1 = findViewById(R.id.etN1);
         etN2 = findViewById(R.id.etN2);
-        tvResultado = findViewById(R.id.tvResultado);
+        tvResultado = findViewById(R.id.textView);
     }
 
     public void operacion(View view){
@@ -77,6 +77,6 @@ public class MainActivity extends AppCompatActivity {
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
 
-        tvResultado.setText(df.format(resultado));
+        tvResultado.setText(resultado);
     }
 }
