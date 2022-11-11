@@ -1,3 +1,7 @@
+/**
+ * ROGELIO RODIRGUEZ
+ */
+
 package com.example.calculadorav5;
 
 import android.content.Context;
@@ -6,8 +10,9 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.RadioButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -41,7 +46,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void operacion(View view){
-        String resultado = "";
+        // Poner todos los checkbox a unchecked
+        LinearLayout parent = (LinearLayout)view.getParent();
+        for(int i=0; i<parent.getChildCount(); i++)
+            ((CheckBox)parent.getChildAt(i)).setChecked(false);
+
+        // Poner el checkbox que se pulsó a Checked
+        ((CheckBox)view).setChecked(true);
+
+
         try {
             // Convertimos el texto a Double
             double num1 = Double.parseDouble(etN1.getText().toString());
@@ -60,15 +73,16 @@ public class MainActivity extends AppCompatActivity {
             }
 
             // Mostramos el resultado
-            resultado = df.format(res);
+            tvResultado.setText(df.format(res));
 
         }catch(NumberFormatException nfe){
             // Pos si por algún casual el usuario copia y pega texto...
             System.out.println("Error formateando los números.");
-            resultado = "NaN";
+            Toast toast = Toast.makeText(getApplicationContext(), "Tienes que escribir algo.", Toast.LENGTH_SHORT);
+            toast.show();
         }catch(ArithmeticException ae){
             System.out.println("Error en la opracion.");
-            resultado = "Error";
+            Toast toast = Toast.makeText(getApplicationContext(), "Error en la operación.", Toast.LENGTH_SHORT);
         }
 
 
@@ -78,6 +92,6 @@ public class MainActivity extends AppCompatActivity {
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
 
-        tvResultado.setText(resultado);
+
     }
 }

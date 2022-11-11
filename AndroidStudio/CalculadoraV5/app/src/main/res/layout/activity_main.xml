@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Rogelio Rodriguez-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -65,11 +66,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/ibtnRestar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,7 +82,7 @@
             android:padding="5dp"
             android:text="@string/restar" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/ibtnMultiplicar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,7 +93,7 @@
             android:padding="5dp"
             android:text="@string/multiplicar" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/ibtnDividir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,14 +121,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:rotationX="45"
-        android:text="d"
+        android:layout_marginTop="20dp"
+        android:rotationX="20"
         android:textIsSelectable="false"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/checkGroup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
