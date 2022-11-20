@@ -60,17 +60,24 @@ public class MainActivity extends AppCompatActivity {
             double num1 = Double.parseDouble(etN1.getText().toString());
             double num2 = Double.parseDouble(etN2.getText().toString());
             double res = 0;
+            String msg = "";
 
-            // Hacemos la operación correspondiente
+            // Hacemos la operación correspondiente y mostramos la notificación
             if(view.getId() == ibtnSumar.getId()){
                 res = num1 + num2;
+                msg = " sumar.";
             }else if(view.getId() == ibtnRestar.getId()){
                 res = num1 - num2;
+                msg = " restar.";
             }else if(view.getId() == ibtnMultiplicar.getId()){
                 res = num1 * num2;
+                msg = " multiplicar.";
             }else if(view.getId() == ibtnDividir.getId()){
                 res = num1 / num2;
+                msg = " dividir.";
             }
+
+            Toast.makeText(this, ("Ha elegido"+msg), Toast.LENGTH_SHORT).show();
 
             // Mostramos el resultado
             tvResultado.setText(df.format(res));
@@ -78,11 +85,11 @@ public class MainActivity extends AppCompatActivity {
         }catch(NumberFormatException nfe){
             // Pos si por algún casual el usuario copia y pega texto...
             System.out.println("Error formateando los números.");
-            Toast toast = Toast.makeText(getApplicationContext(), "Tienes que escribir algo.", Toast.LENGTH_SHORT);
-            toast.show();
+            Toast.makeText(this, "Tienes que escribir algo.", Toast.LENGTH_SHORT).show();
+            getApplicationContext();
         }catch(ArithmeticException ae){
             System.out.println("Error en la opracion.");
-            Toast toast = Toast.makeText(getApplicationContext(), "Error en la operación.", Toast.LENGTH_SHORT);
+            Toast.makeText(this, "Error en la operación.", Toast.LENGTH_SHORT).show();
         }
 
 
