@@ -1,3 +1,4 @@
+// Programado por Rogelio Rodriguez :D
 package com.example.agenda;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         // Si es el boton de llamar...
         if(v==btnLlamar){
             // Mostramos la notificacion
+            String s = "Va a llamar a " +cogerNombre();
             Toast.makeText(this,"Va a llamar a "+ cogerNombre(),Toast.LENGTH_SHORT)
                     .show();
         }
@@ -74,6 +76,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public String cogerNombre(){
         String s = String.valueOf(etNombre.getText());
+        if(s.isEmpty())
+            return "";
+
+        if(!s.contains(" "))
+            return s;
+
         return s.substring(0, s.indexOf(" "));
     }
 }

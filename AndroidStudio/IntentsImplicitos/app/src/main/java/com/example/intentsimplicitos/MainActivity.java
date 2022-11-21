@@ -57,12 +57,21 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void butonClick(View v){
+        
         InputMethodManager inputMethodManager = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(v.getApplicationWindowToken(),0);
         if (((RadioButton)findViewById(R.id.rbCall)).isChecked()) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:" + editText.getText().toString()));
-            startActivity(intent);
-            textLayout.setVisibility(View.INVISIBLE);
+            int permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE);
+            if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
+                Log.i("Mensaje", "No se tiene permiso para realizar llamadas telefónicas.");
+                    ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, 225);
+            } else {
+                Log.i("Mensaje", "Se tiene permiso para realizar llamadas!");
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + editText.getText().toString()));
+                startActivity(intent);
+                textLayout.setVisibility(View.INVISIBLE);
+            }
+            
         } else if (((RadioButton)findViewById(R.id.rbWeb)).isChecked()) {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://"+editText.getText().toString()));
             startActivity(intent);
