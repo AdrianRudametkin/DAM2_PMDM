@@ -29,36 +29,27 @@
             android:layout_marginBottom="50dp"/>
 
         <Button
+            style="@style/EstiloBoton"
             android:id="@+id/boton01"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/jugar"
-            app:backgroundTint="@color/light_grey"
             app:backgroundTintMode="screen" />
 
         <Button
-            android:id="@+id/boton02"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/EstiloBoton"
             android:text="@string/configurar"
-            app:backgroundTint="@color/light_grey"
             app:backgroundTintMode="screen" />
 
         <Button
+            style="@style/EstiloBoton"
             android:id="@+id/boton03"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/acerca_de"
-            app:backgroundTint="@color/light_grey"
-            app:backgroundTintMode="screen" />
+            app:backgroundTint="@color/light_grey" />
 
         <Button
+            style="@style/EstiloBoton"
             android:id="@+id/boton04"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:text="@string/salir"
-            app:backgroundTint="@color/light_grey"
             app:backgroundTintMode="screen" />
 
     </LinearLayout>
